@@ -1,5 +1,5 @@
 # Unsplash Photo Viewer
-A simple client that allows you to view trend photos from and search for photos by keywords.
+A simple client that allows you to view trend photos from [Unsplash.com](https://unsplash.com/) and search photos by keywords.
 ## Provide an Api Key
 ```sh
 class ApiService {
