@@ -1,16 +1,11 @@
-# unsplash_photo_viewer
-
-Simple unsplash photo viewer.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Unsplash Photo Viewer
+A simple client that allows you to view trend photos from and search for photos by keywords.
+## Provide an Api Key
+```sh
+class ApiService {
+  static String baseApi = 'https://api.unsplash.com';
+  static String clientId = 'API_KEY';
+  ...
+  }
+```
+See [Unsplash API](https://unsplash.com/documentation)
